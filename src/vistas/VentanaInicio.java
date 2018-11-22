@@ -126,6 +126,7 @@ public class VentanaInicio extends JFrame implements ActionListener{
             	fieldElemento.setHorizontalAlignment(SwingConstants.CENTER);
                 fieldElemento.setFont(new Font("Arial", 1, dimPan.tamanioLetra(40)));
             	fieldElemento.setText(ng.devuelveMatriz()[i][j]+"");
+            	fieldElemento.setEditable(false);
             	panelFondo.add(fieldElemento);
             }
         }
